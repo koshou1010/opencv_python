@@ -11,7 +11,7 @@ import random
 #         img[row][col] = [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)]
 
 
-img = cv2.imread('dog.jpg')
+img = cv2.imread('./base/data/dog.jpg')
 cut_img = img[:150, :150]
 
 cv2.imshow('img', img)
